@@ -1,12 +1,14 @@
 /*  a los selectores los llamammos directamente con el nombre, ejm: footer {}  
-y a las clases las llamamos con el punto, ejm: .header {}*/ 
+y a las clases las llamamos con el punto, ejm: .header {}*/
 
-a:link {color:#ffffff;}
+a:link {
+    color: #ffffff;
+}
 
 .header {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 .logo {
@@ -26,10 +28,11 @@ a:link {color:#ffffff;}
     border-radius: 10px;
 }
 
-/*pseudo class: para cambiar el color de los buttones cuando hacemos click*/
-.menu button:hover  {
-    color: #c4a4c4;
 
+/*pseudo class: para cambiar el color de los buttones cuando hacemos click*/
+
+.menu button:hover {
+    color: #c4a4c4;
 }
 
 .buttonNav {
@@ -37,7 +40,17 @@ a:link {color:#ffffff;}
     border: none;
     color: white;
     font-size: 19px;
+    margin-top: 12px;
+    outline: none;
+}
 
+.buttonNavActive {
+    background-color: #9D469D;
+    border: none;
+    color: #ffffff;
+    font-size: 19px;
+    text-shadow: 0 0 5px rgb(243, 102, 208), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    margin-top: 12px;
 }
 
 .footer {
@@ -50,7 +63,7 @@ a:link {color:#ffffff;}
     position: absolute;
     width: 100%;
     height: 100px;
-    color:white;
+    color: white;
     font-size: 15px;
 }
 
@@ -68,6 +81,4 @@ a:link {color:#ffffff;}
     margin-bottom: 5px;
     color: white;
     filter: invert();
-    
 }
-
