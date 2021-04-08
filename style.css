@@ -1,8 +1,8 @@
 /*  a los selectores los llamammos directamente con el nombre, ejm: footer {}  
 y a las clases las llamamos con el punto, ejm: .header {}*/
 
-a:link {
-    color: #ffffff;
+.enlaceProyecto a:link {
+    color: #A248A2;
 }
 
 .header {
