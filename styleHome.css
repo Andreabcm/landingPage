@@ -16,10 +16,20 @@
 
 }
 
-.homeContainerSon {
+.homeContainerSonImage {
     display: flex;
     align-content: center;
     align-items: center;
+       
+}
+
+.homeContainerSonText {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .homeImg {
@@ -28,8 +38,15 @@
 }
 
 .homeText {
+    
     width: 505px;
-    font-size: 20px;
+    font-size: 40px;
     margin-left: 60px;
     margin-right: 60px;
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
 }
