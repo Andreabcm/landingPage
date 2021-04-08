@@ -21,6 +21,14 @@
     margin-top: 10px;
 }
 
+.servicesTxt2 {
+    margin-top: 10;
+    text-align: justify;
+    font-size: 18px;
+    width: 300px;
+    align-items: center;
+}
+
 .servicesMainten {
     margin-top: 130px;
 }
