@@ -12,18 +12,17 @@ a:link {
 }
 
 .logo {
-    width: 400px;
-    height: 94px;
+    width: 280px;
+    height: 64px;
     border-radius: 10px;
-    margin-top: 19.5px;
-    margin-bottom: 19.75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 .menu {
     display: flex;
     justify-content: space-around;
     width: 1250px;
-    height: 50px;
+    height: 40px;
     background: #9D469D;
     border-radius: 10px;
 }
@@ -53,6 +52,46 @@ a:link {
     margin-top: 12px;
 }
 
+.servicesMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #873C3C;
+    font-size: 24px;
+    font-weight: bold;  
+    text-align: center; 
+    
+}
+
+.servicesDevelopImg {
+    width: 310px;
+    height: 179px;
+    border: 1px solid #873C3C;
+    box-sizing: border-box;
+}
+
+.servicesTxt {
+    margin-top: 10px;
+}
+
+.servicesMainten {
+    margin-top: 150px;
+}
+
+
+.servicesMaintenImg {
+    width: 232px;
+    height: 208px;
+}
+
+.servicesConsultaImg {
+    width: 408px;
+    height: 195px;
+    border: 1px solid #873C3C;
+    box-sizing: border-box;
+}
+
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -60,7 +99,7 @@ a:link {
     background: #A248A2;
     border-radius: 10px;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100px;
     color: white;
