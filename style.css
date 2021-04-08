@@ -82,38 +82,3 @@ a:link {
 }
 
 
-/* Apartado de home */
-
-.mainHome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-          
-}
-
-.homeContainerFather {
-    display: flex;
-    flex-direction: row;
-    height: 500px;
-    width: 1250px;
-    justify-content: center;
-
-}
-
-.homeContainerSon {
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.homeImg {
-    width: 625px;
-    height: 360px;
-}
-
-.homeText {
-    width: 505px;
-    font-size: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
