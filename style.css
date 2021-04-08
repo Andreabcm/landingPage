@@ -12,18 +12,17 @@ a:link {
 }
 
 .logo {
-    width: 400px;
-    height: 94px;
+    width: 280px;
+    height: 64px;
     border-radius: 10px;
-    margin-top: 19.5px;
-    margin-bottom: 19.75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 .menu {
     display: flex;
     justify-content: space-around;
     width: 1250px;
-    height: 50px;
+    height: 40px;
     background: #9D469D;
     border-radius: 10px;
 }
@@ -60,11 +59,11 @@ a:link {
     background: #A248A2;
     border-radius: 10px;
     bottom: 0px;
-    position: absolute;
     width: 100%;
     height: 100px;
     color: white;
     font-size: 15px;
+    position: fixed;
 }
 
 .contact {
@@ -81,4 +80,58 @@ a:link {
     margin-bottom: 5px;
     color: white;
     filter: invert();
+}
+
+/*página Our Team*/
+
+.integrante1 {
+    display: flex;
+    align-content: center;
+}
+
+.integrante2 {
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.integrante3 {
+    display:flex;
+    align-content: center;
+}
+
+.integrante4 {
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.integrante5 {
+    display:flex;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.textosIntegrantes {
+    width: 450px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.nombresIntegrantes {    
+    font-family: Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    color: #A248A2;
+}
+
+.cvsintegrantes {
+    font-family: Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;
 }
