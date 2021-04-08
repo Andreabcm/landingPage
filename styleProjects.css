@@ -1,3 +1,7 @@
+a:link {
+    color: #ffffff;
+}
+
 .contenedorMain {
     display: flex;
     justify-content: space-around;
