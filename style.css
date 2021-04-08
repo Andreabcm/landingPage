@@ -12,18 +12,18 @@ a:link {
 }
 
 .logo {
-    width: 400px;
-    height: 94px;
+    width: 280px;
+    height: 64px;
     border-radius: 10px;
-    margin-top: 19.5px;
-    margin-bottom: 19.75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu {
     display: flex;
     justify-content: space-around;
     width: 1250px;
-    height: 50px;
+    height: 40px;
     background: #9D469D;
     border-radius: 10px;
 }
@@ -40,7 +40,7 @@ a:link {
     border: none;
     color: white;
     font-size: 19px;
-    margin-top: 12px;
+    margin-top: 8px;
     outline: none;
 }
 
@@ -50,7 +50,7 @@ a:link {
     color: #ffffff;
     font-size: 19px;
     text-shadow: 0 0 5px rgb(243, 102, 208), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .footer {
@@ -60,7 +60,7 @@ a:link {
     background: #A248A2;
     border-radius: 10px;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100px;
     color: white;
