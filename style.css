@@ -10,20 +10,18 @@ a:link {
     flex-direction: column;
     align-items: center;
 }
-
 .logo {
-    width: 400px;
-    height: 94px;
+    width: 280px;
+    height: 64px;
     border-radius: 10px;
-    margin-top: 19.5px;
-    margin-bottom: 19.75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 .menu {
     display: flex;
     justify-content: space-around;
     width: 1250px;
-    height: 50px;
+    height: 40px;
     background: #9D469D;
     border-radius: 10px;
 }
@@ -40,7 +38,7 @@ a:link {
     border: none;
     color: white;
     font-size: 19px;
-    margin-top: 12px;
+    margin-top: 8px;
     outline: none;
 }
 
@@ -50,7 +48,7 @@ a:link {
     color: #ffffff;
     font-size: 19px;
     text-shadow: 0 0 5px rgb(243, 102, 208), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .footer {
@@ -60,7 +58,7 @@ a:link {
     background: #A248A2;
     border-radius: 10px;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100px;
     color: white;
@@ -81,4 +79,41 @@ a:link {
     margin-bottom: 5px;
     color: white;
     filter: invert();
+}
+
+
+/* Apartado de home */
+
+.mainHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.homeContainerFather {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1250px;
+    justify-content: center;
+
+}
+
+.homeContainerSon {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.homeImg {
+    width: 625px;
+    height: 360px;
+}
+
+.homeText {
+    width: 505px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
