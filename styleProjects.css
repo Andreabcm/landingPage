@@ -1,0 +1,99 @@
+.contenedorMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenedorMain2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenedorMain3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.imagenMain {
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.imagenMain2 {
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.imagenMain3 {
+    border-radius: 15px;
+    margin-top: 15px;
+    background-size: cover;
+}
+
+.mayVelas {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.ecommerce {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.bateria {
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.textoMain {
+    text-align: justify;
+    width: 300px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.tituloTexto {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.enlaceProyecto {
+    font-size: 30px;
+    color:#A248A2 !important;
+}
+
+.enlaceProyecto2 {
+    font-size: 22px;
+}
+
+.enlaceProyecto3 {
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.separador {
+    background-color: #A248A2;
+    height: 3px;
+    border-radius: 2px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
