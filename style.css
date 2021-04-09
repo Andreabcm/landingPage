@@ -52,6 +52,7 @@ y a las clases las llamamos con el punto, ejm: .header {}*/
     margin-top: 8px;
 }
 
+
 .footer {
     display: flex;
     flex-direction: column;

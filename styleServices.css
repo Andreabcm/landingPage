@@ -1,0 +1,47 @@
+.servicesMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #873C3C;
+    font-size: 24px;
+    font-weight: bold;  
+    text-align: center; 
+    margin-left: 120px;
+    margin-right: 150px;
+}
+
+.servicesDevelopImg {
+    width: 310px;
+    height: 179px;
+    border: 1px solid #873C3C;
+    box-sizing: border-box;
+}
+
+.servicesTxt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.servicesTxt2 {
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    align-items: center;
+}
+
+.servicesMainten {
+    margin-top: 130px;
+}
+
+
+.servicesMaintenImg {
+    width: 232px;
+    height: 208px;
+}
+
+.servicesConsultaImg {
+    width: 408px;
+    height: 195px;
+    border: 1px solid #873C3C;
+    box-sizing: border-box;
+}
