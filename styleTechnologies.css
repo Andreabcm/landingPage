@@ -30,6 +30,32 @@
     margin-right: 90px;
 }
 
+.kanban {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.figma {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.visual {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.contenedorMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 90px;
+}
+
 .texto {
     margin-top: 30px;
     margin-left: 50px;
