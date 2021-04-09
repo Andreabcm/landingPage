@@ -2,49 +2,40 @@
     width: 250px;
     height: 150px;
     border-radius: 10px;
- }
- 
- .kanban {
-     width: 250px;
-     height: 150px;
-     border-radius: 10px;
- }
- 
- .figma {
-     
-     width: 250px;
-     height: 150px;
-     border-radius: 10px;
- }
- 
- .visual {
-     width: 250px;
-     height: 150px;
-     border-radius: 10px;
- 
- }
- 
- .contenedorMain {
-     background;
-     display:flex;
-     justify-content: space-between;
-     margin-top: 60px;
-     margin-left: 120px;
-     margin-right: 90px;
- 
- }
+}
 
- .imagenGitFigma {
-     display: inline-block;
-     
- }
+.kanban {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
 
- .texto {
-     margin-top: 60px;
-     margin-left: 50px;
-     margin-right: 50px;
-     
-     
- }
- 
- 
+.figma {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.visual {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.contenedorMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 90px;
+}
+
+.imagenGitFigma {
+    display: inline-block;
+}
+
+.texto {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

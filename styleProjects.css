@@ -102,5 +102,7 @@ a:link {
 }
 
 .colorEnlace {
-    color: #A248A2;
+    background-color: #A248A2;
+    border-radius: 5px;
+    color: white;
 }
