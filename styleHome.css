@@ -1,0 +1,43 @@
+/* Apartado de home */
+
+.mainHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.homeContainerFather {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1250px;
+    justify-content: center;
+
+}
+
+.homeContainerSonImage {
+    display: flex;
+    align-content: center;
+    align-items: center;
+       
+}
+
+.homeContainerSonText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeImg {
+    width: 625px;
+    height: 360px;
+}
+
+.homeText {
+    width: 625px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
