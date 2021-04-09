@@ -2,6 +2,7 @@
     width: 250px;
     height: 150px;
     border-radius: 10px;
+<<<<<<< HEAD
  }
  
  .kanban {
@@ -32,14 +33,38 @@
      margin-right: 90px;
  
  }
+=======
+}
+>>>>>>> 471afd841d2c0ce487be41d7e9f06d9cdbe80c6d
 
+.kanban {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
 
- .texto {
-     margin-top: 60px;
-     margin-left: 50px;
-     margin-right: 50px;
-     
-     
- }
- 
- 
+.figma {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.visual {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.contenedorMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 90px;
+}
+
+.texto {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
