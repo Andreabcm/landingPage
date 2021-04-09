@@ -65,6 +65,7 @@ y a las clases las llamamos con el punto, ejm: .header {}*/
     height: 100px;
     color: white;
     font-size: 15px;
+    position: fixed;
 }
 
 .contact {
@@ -81,4 +82,58 @@ y a las clases las llamamos con el punto, ejm: .header {}*/
     margin-bottom: 5px;
     color: white;
     filter: invert();
+}
+
+/*página Our Team*/
+
+.integrante1 {
+    display: flex;
+    align-content: center;
+}
+
+.integrante2 {
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.integrante3 {
+    display:flex;
+    align-content: center;
+}
+
+.integrante4 {
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.integrante5 {
+    display:flex;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.textosIntegrantes {
+    width: 450px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.nombresIntegrantes {    
+    font-family: Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    color: #A248A2;
+}
+
+.cvsintegrantes {
+    font-family: Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;
 }
